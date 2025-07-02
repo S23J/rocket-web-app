@@ -131,7 +131,7 @@ function ListRocket() {
                             <>
                                 <Row>
                                     {filteredRocket.map((data) => (
-                                        <Col key={data?.id} xs={6} md={3} lg={3} className='text-center my-3'>
+                                        <Col key={data?.id} xs={12} md={3} lg={3} className='text-center my-3'>
                                             <Card style={styles?.cardStyles}>
                                                 <Card.Header style={styles?.cardHeaderStyles}>
                                                     <Row>
