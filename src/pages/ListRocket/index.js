@@ -18,12 +18,9 @@ function ListRocket() {
         setLoading(true);
         axiosModule.get(`/v4/rockets`,
             {
-                headers:
-                {
-                    'Access-Control-Allow-Origin': '*',
+                headers: {
                     'Content-Type': 'application/json',
-                    withCredentials: true,
-                },
+                }
 
             })
             .then(res => {
